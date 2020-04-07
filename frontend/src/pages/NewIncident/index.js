@@ -7,7 +7,7 @@ import "./styles.css";
 import logoImg from "../../assets/logo.svg";
 
 export default function NewIncident() {
-  const [title, setTitle] = useState();
+  const [title, setTitle] = useState(); 
   const [description, setDescription] = useState();
   const [value, setValue] = useState();
   const ongId = localStorage.getItem("ongId");
